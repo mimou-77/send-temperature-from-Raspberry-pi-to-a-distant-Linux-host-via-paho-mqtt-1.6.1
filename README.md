@@ -3,3 +3,12 @@
 * a shell script that initializes the kernel module for AHT10 temperature sensor
 * a python script (publisher) on the raspberry pi that publishes temperature values
 * a python script (subscriber) on the linux host that recieves the temperature values and prints them
+## getting-started:
+```bash
+sudo apt install python3
+```
+```bash
+pip install paho-mqtt
+```
+
+
