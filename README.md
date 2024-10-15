@@ -4,6 +4,10 @@
 * a python script (publisher) on the raspberry pi that publishes temperature values
 * a python script (subscriber) on the linux host that recieves the temperature values and prints them
 ## getting-started:
+
+```bash
+clone 
+```
 ```bash
 sudo apt install python3
 ```
