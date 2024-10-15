@@ -6,7 +6,7 @@
 ## getting-started:
 
 ```bash
-clone 
+clone https://github.com/mimou-77/send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt.git
 ```
 ```bash
 sudo apt install python3
