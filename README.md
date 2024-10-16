@@ -4,7 +4,7 @@
 * a python script (publisher) on the raspberry pi that publishes temperature values
 * a python script (subscriber) on the linux host that recieves the temperature values and prints them
   
-*P.S:* the shell script calls the python publisher script
+**P.S:** the shell script calls the python publisher script
 ## getting-started:
 
 ### on the distant linux host:
