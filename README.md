@@ -5,7 +5,7 @@
 * a python script (subscriber) on the linux host that recieves the temperature values and prints them
 ## getting-started:
 
-on the distant linux host:
+### on the distant linux host:
 ```bash
 git clone https://github.com/mimou-77/send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt.git
 ```
@@ -14,12 +14,13 @@ work only with the directory "on_distant_Linux_host" containing the files that n
 git sparse-checkout set on_distant_Linux_host
 git checkout
 ```
-on the distant Linux host AND on the raspberry pi:
+### on the distant Linux host AND on the raspberry pi:
 ```bash
 sudo apt install python3
 ```
 ```bash
 pip install paho-mqtt
 ```
+
 
 
