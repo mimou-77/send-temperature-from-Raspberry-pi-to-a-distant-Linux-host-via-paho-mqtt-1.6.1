@@ -9,7 +9,11 @@ on the distant linux host:
 ```bash
 git clone https://github.com/mimou-77/send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt.git
 ```
-
+work only with the directory "on_distant_Linux_host" containing the files that need to be on the distant linux host (the python script: subscriber)
+```bash
+git sparse-checkout set on_distant_Linux_host
+git checkout
+```
 on the distant Linux host AND on the raspberry pi:
 ```bash
 sudo apt install python3
