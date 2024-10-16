@@ -10,7 +10,7 @@ on the distant linux host:
 git clone https://github.com/mimou-77/send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt.git
 ```
 
-On the distant Linux host AND on the raspberry pi:
+on the distant Linux host AND on the raspberry pi:
 ```bash
 sudo apt install python3
 ```
