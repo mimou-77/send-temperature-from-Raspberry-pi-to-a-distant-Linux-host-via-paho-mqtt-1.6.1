@@ -11,6 +11,7 @@ git clone https://github.com/mimou-77/send-temperature-from-Raspberry-pi-to-a-di
 ```
 work only with the directory "on_distant_Linux_host" containing the files that need to be on the distant linux host (the python script: subscriber)
 ```bash
+cd send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt
 git sparse-checkout set on_distant_Linux_host
 git checkout
 ```
