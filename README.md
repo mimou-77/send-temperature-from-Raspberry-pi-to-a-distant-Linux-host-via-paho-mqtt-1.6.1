@@ -24,8 +24,9 @@ sudo apt install python3
 ```bash
 sudo apt install pip
 ```
+make sure you have the older version of paho-mqtt (version 1.6.1) otherwise nothing will work
 ```bash
-pip install paho-mqtt
+pip install paho-mqtt==1.6.1
 ```
 ### on the raspberry pi:
 ```bash
