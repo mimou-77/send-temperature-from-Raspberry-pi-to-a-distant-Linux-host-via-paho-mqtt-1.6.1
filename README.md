@@ -41,7 +41,7 @@ git checkout
 ### Next: execute the 2 scripts simultaneously 
 on the distant Linux host: execute the the init script
 ```bash
-./init.sh
+./init_aht10.sh
 ```
 on the raspberry pi: execute the subscriber script
 ```bash
