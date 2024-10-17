@@ -22,6 +22,9 @@ git checkout
 sudo apt install python3
 ```
 ```bash
+sudo apt install pip
+```
+```bash
 pip install paho-mqtt
 ```
 ### on the raspberry pi:
