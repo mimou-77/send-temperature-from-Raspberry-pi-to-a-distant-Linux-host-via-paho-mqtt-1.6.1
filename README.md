@@ -47,4 +47,9 @@ on the raspberry pi: execute the subscriber script
 ```bash
 ./sub.py
 ```
+### you will see something similar to this:
+on the raspberry pi:
+![alt text](https://github.com/...)
+on the distant linux host:
+![alt text](https://github.com/...)
 
