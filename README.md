@@ -24,6 +24,15 @@ sudo apt install python3
 ```bash
 sudo apt install pip
 ```
+------------------------------------------------------------------------------
+p.s: if the previous command doesn't work (unable to locate package) do this:
+```bash
+sudo add-apt-repository ppa:python-packages-archive/ppa
+```
+```bash
+sudo apt update
+```
+-------------------------------------------------------------------------------
 make sure you have the older version of paho-mqtt (version 1.6.1) otherwise nothing will work
 ```bash
 pip install paho-mqtt==1.6.1
