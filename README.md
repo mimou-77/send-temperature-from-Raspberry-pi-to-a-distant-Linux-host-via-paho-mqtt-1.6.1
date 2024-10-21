@@ -77,6 +77,8 @@ python3 ./sub.py
 #### you will see something similar to this:
 on the raspberry pi:
 ![execution of the script init_aht10.sh](init_aht10.png)
+
 on the distant linux host:
+
 ![execution of the script sub.py](sub.png)
 
