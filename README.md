@@ -35,7 +35,7 @@ make sure you have the older version of paho-mqtt (version 1.6.1) otherwise noth
 ```bash
 pip install paho-mqtt==1.6.1
 ```
-> if you have the following error after **paho-mqtt==1.6.1paho-mqtt==1.6.1** : "error: externally-managed-environment" do this:
+> if you have the following error after **pip install paho-mqtt==1.6.1** : "error: externally-managed-environment" do this:
 > ```bash
 > pip install --break-system-packages paho-mqtt==1.6.1
 > ```
