@@ -64,6 +64,7 @@ find /lib/modules/ -iname aht10*
 ### step (*): execute the 2 scripts simultaneously 
 on the distant Linux host: execute the the init script
 ```bash
+cd on_raspberry_pi
 ./init_aht10.sh
 ```
 on the raspberry pi: execute the subscriber script
