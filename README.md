@@ -47,7 +47,7 @@ cd send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt
 git sparse-checkout set on_raspberry_pi
 git checkout
 ```
-### check if you have the driver kernel-module for the AHT10 sensor on your raspberry pi:
+#### check if you have the driver kernel-module for the AHT10 sensor on your raspberry pi:
 on the raspberry pi:
 ```bash
 find /lib/modules/ -iname aht10*
@@ -61,8 +61,7 @@ check if the module is now available:
 ```bash
 find /lib/modules/ -iname aht10*
 ```
-### step (*):
-### Next: execute the 2 scripts simultaneously 
+### step (*): execute the 2 scripts simultaneously 
 on the distant Linux host: execute the the init script
 ```bash
 ./init_aht10.sh
@@ -71,7 +70,7 @@ on the raspberry pi: execute the subscriber script
 ```bash
 python3 ./sub.py
 ```
-### you will see something similar to this:
+#### you will see something similar to this:
 on the raspberry pi:
 ![alt text](https://github.com/...)
 on the distant linux host:
