@@ -31,14 +31,14 @@ sudo apt install pip
 > ```bash
 > sudo apt update
 > ```
-> if you have the following error after **sudo apt install pip** : "error: externally-managed-environment" do this:
-> ```bash
-> pip install --break-system-packages paho-mqtt==1.6.1
-> ```
 make sure you have the older version of paho-mqtt (version 1.6.1) otherwise nothing will work
 ```bash
 pip install paho-mqtt==1.6.1
 ```
+> if you have the following error after **paho-mqtt==1.6.1paho-mqtt==1.6.1** : "error: externally-managed-environment" do this:
+> ```bash
+> pip install --break-system-packages paho-mqtt==1.6.1
+> ```
 ### on the raspberry pi:
 ```bash
 git clone https://github.com/mimou-77/send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt.git
