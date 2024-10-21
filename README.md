@@ -78,5 +78,5 @@ python3 ./sub.py
 on the raspberry pi:
 ![execution of the script init_aht10.sh](init_aht10.png)
 on the distant linux host:
-![alt text](https://github.com/...)
+![execution of the script sub.py](sub.png)
 
