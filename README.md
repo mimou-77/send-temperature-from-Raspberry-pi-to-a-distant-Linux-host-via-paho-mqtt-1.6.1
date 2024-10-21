@@ -71,6 +71,7 @@ cd on_raspberry_pi
 ```
 on the raspberry pi: execute the subscriber script
 ```bash
+cd on_distant_linux_host
 python3 ./sub.py
 ```
 #### you will see something similar to this:
