@@ -26,6 +26,7 @@ sudo apt install pip
 ```
 > p.s: if the previous command doesn't work (unable to locate package) do this:
 > ```bash
+> sudo apt install linux-generic
 > ```
 > ```bash
 > sudo apt update
