@@ -31,6 +31,10 @@ sudo apt install pip
 > ```bash
 > sudo apt update
 > ```
+> if you have the following error: error: "externally-managed-environment" do this:
+> ```bash
+> sudo apt install python3-paho-mqtt
+> ```
 make sure you have the older version of paho-mqtt (version 1.6.1) otherwise nothing will work
 ```bash
 pip install paho-mqtt==1.6.1
