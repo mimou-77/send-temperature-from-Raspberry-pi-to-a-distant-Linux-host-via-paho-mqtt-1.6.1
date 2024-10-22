@@ -1,4 +1,4 @@
-# send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt-1.6.1
+# v2-send-simulated-temperature-values-in-an-infinite-loop
 
 ## on the raspberry pi:
 this version simulates temperature values and sends them in an infinite loop
