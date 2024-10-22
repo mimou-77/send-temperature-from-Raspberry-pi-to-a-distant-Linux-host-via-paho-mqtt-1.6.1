@@ -6,7 +6,7 @@
   
 **P.S:** the shell script calls the python publisher script (init_aht10.sh calls pub.py)
 ## getting-started:
-
+⚠️ Os must be ubuntu 24 LTS or newer so that the aht10 module is integrated to the kernel
 ### on the distant linux host:
 ```bash
 git clone https://github.com/mimou-77/send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt.git
