@@ -1,8 +1,10 @@
-# send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt-1.6.1
+# version1: send-temperature-from-Raspberry-pi-to-a-distant-Linux-host-via-paho-mqtt-1.6.1
 3 scripts:
 * a shell script that initializes the kernel module for AHT10 temperature sensor (init_aht10.sh)
 * a python script (publisher) on the raspberry pi that publishes temperature values (pub.py)
 * a python script (subscriber) on the linux host that recieves the temperature values and prints them (sub.py)
+
+## there is also a version2: in the directory: v2-send-simulated-temperature-values-in-an-infinite-loop 
   
 **P.S:** the shell script calls the python publisher script (init_aht10.sh calls pub.py)
 ## getting-started:
